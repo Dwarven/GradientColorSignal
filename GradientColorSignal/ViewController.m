@@ -44,9 +44,12 @@
 - (void)loadSignalSearching {
     if (SignalTypeSearching != _signal.type) {
         [_signal setType:SignalTypeSearching];
+        [_signal setSearchingColor:[UIColor grayColor]];
+        [_signal setStartAlpha:1];
+        [_signal setEndAlpha:0.1];
         [_signal setClockwise:YES];
-//        [_signal setSearchingLineWidth:@20];
-//        [_signal setDuration:20];
+        [_signal setSearchingLineWidth:@10];
+        [_signal setDuration:1.0];
         
         [_signal reload];
     }
