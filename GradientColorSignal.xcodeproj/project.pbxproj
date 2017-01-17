@@ -12,6 +12,7 @@
 		5369F8C11E2DDE59008851F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5369F8C01E2DDE59008851F2 /* ViewController.m */; };
 		5369F8C41E2DDE59008851F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5369F8C21E2DDE59008851F2 /* Main.storyboard */; };
 		5369F8C61E2DDE59008851F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5369F8C51E2DDE59008851F2 /* Assets.xcassets */; };
+		5369F8DB1E2DE149008851F2 /* GradientColorSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5369F8DA1E2DE149008851F2 /* GradientColorSignal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		5369F8C31E2DDE59008851F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5369F8C51E2DDE59008851F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5369F8CA1E2DDE59008851F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5369F8D91E2DE149008851F2 /* GradientColorSignal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientColorSignal.h; sourceTree = "<group>"; };
+		5369F8DA1E2DE149008851F2 /* GradientColorSignal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientColorSignal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		5369F8AD1E2DDE58008851F2 = {
 			isa = PBXGroup;
 			children = (
+				5369F8D71E2DE108008851F2 /* Class */,
 				5369F8B81E2DDE59008851F2 /* GradientColorSignal */,
 				5369F8B71E2DDE59008851F2 /* Products */,
 			);
@@ -74,6 +78,15 @@
 				5369F8BA1E2DDE59008851F2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5369F8D71E2DE108008851F2 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				5369F8D91E2DE149008851F2 /* GradientColorSignal.h */,
+				5369F8DA1E2DE149008851F2 /* GradientColorSignal.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 				5369F8C11E2DDE59008851F2 /* ViewController.m in Sources */,
 				5369F8BE1E2DDE59008851F2 /* AppDelegate.m in Sources */,
 				5369F8BB1E2DDE59008851F2 /* main.m in Sources */,
+				5369F8DB1E2DE149008851F2 /* GradientColorSignal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
