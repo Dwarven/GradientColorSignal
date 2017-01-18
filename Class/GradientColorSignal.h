@@ -28,6 +28,8 @@ typedef NS_ENUM(NSInteger, SignalType) {
 
 - (void)reload;
 
+- (void)stop;
+
 #pragma mark - Signal Type Default
 
 /**
