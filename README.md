@@ -29,22 +29,22 @@ pod 'GradientColorSignal'
 #pragma mark - init and setup GradientColorSignal
 
 _signal = [[GradientColorSignal alloc] init];
-[_signal setType:SignalTypeDefault];
-[_signal setStartAngle:@(-M_PI/2)];
-//[_signal setEndAngle:@(M_PI/2)];
-[_signal setStartPoint:CGPointMake(0, 0.5)];
-[_signal setEndPoint:CGPointMake(1, 0.5)];
-[_signal setLineWidth:@10];
-[_signal setClockwise:NO];
-[_signal setLineCap:kCALineCapRound];
+[_signal setType: SignalTypeDefault];
+[_signal setStartAngle: @(-M_PI/2)];
+//[_signal setEndAngle: @(M_PI/2)];
+[_signal setStartPoint: CGPointMake(0, 0.5)];
+[_signal setEndPoint: CGPointMake(1, 0.5)];
+[_signal setLineWidth: @10];
+[_signal setClockwise: NO];
+[_signal setLineCap: kCALineCapRound];
         
 [_signal reload];
 
 #pragma mark - animations
 //type 1:
-[_signal animateToScale:0.33 duration:0.3];
+[_signal animateToScale: 0.33 duration: 0.3];
 //type 2:
-[_signal animateToScale:0.33 duration:0.3 function:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn]];
+[_signal animateToScale: 0.33 duration: 0.3 function:[CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseIn]];
 ```
 
 ## Signal Type Searching:
@@ -53,14 +53,19 @@ _signal = [[GradientColorSignal alloc] init];
 #import "GradientColorSignal.h"
 
 _signal = [[GradientColorSignal alloc] init];
-[_signal setType:SignalTypeSearching];
-[_signal setSearchingColor:[UIColor grayColor]];
-[_signal setStartAlpha:1];
-[_signal setEndAlpha:0.1];
-[_signal setClockwise:YES];
-[_signal setSearchingLineWidth:@10];
-[_signal setDuration:1.0];[_signal reload];
+[_signal setType: SignalTypeSearching];
+[_signal setSearchingColor: [UIColor grayColor]];
+[_signal setStartAlpha: 1.0];
+[_signal setEndAlpha: 0.1];
+[_signal setClockwise: YES];
+[_signal setSearchingLineWidth: @10];
+[_signal setDuration: 1.0];
 
 [_signal reload]; //Auto-rotate when loaded
 ```
 
+## Stop Animation:
+
+```obj-c
+[_signal stop];
+```
