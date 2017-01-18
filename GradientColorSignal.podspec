@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                  = 'GradientColorSignal'
-  s.version               = '0.0.1'
+  s.version               = '0.0.2'
   s.summary               = 'Animated Gradient Color Signal.'
   s.homepage              = 'https://github.com/Dwarven/GradientColorSignal'
   s.ios.deployment_target = '7.0'
