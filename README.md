@@ -13,11 +13,11 @@ To integrate GradientColorSignal into your Xcode project using CocoaPods, specif
 ```ruby
 pod 'GradientColorSignal'
 ```
-#Preview
-##full
+# Preview
+## full
 ![Demo Gif](https://raw.githubusercontent.com/Dwarven/GradientColorSignal/master/demo1.gif)
 
-##hollow
+## hollow
 ![Demo Gif](https://raw.githubusercontent.com/Dwarven/GradientColorSignal/master/demo2.gif)
 
 # How to use
